@@ -1,8 +1,4 @@
 @import "tailwindcss";
-/* *{
-  margin: 0;
-  padding: 0;
-} */
 body{
   margin: 0;
   padding: 0;
@@ -38,4 +34,11 @@ html{
   height: 100%;
   object-fit: cover;
   border-radius: 10px !important;
+}
+
+.swiper-slide .card img{
+  transition: 0.5s;
+}
+.swiper-slide .card img:hover{
+  transform: scale(1.1);
 }

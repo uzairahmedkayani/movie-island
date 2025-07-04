@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import NoPage from "./pages/NoPage";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
+import SingleMovie from "./pages/SingleMovie";
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
             <Route path="/"element={<Home />} />
             <Route path='/signup' element={<Signup />} />
             <Route path='/Login' element={<Login />} />
+            <Route path='/singleMovie/:movieId' element={<SingleMovie />} />
+
             <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
