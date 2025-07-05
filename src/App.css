@@ -42,3 +42,25 @@ html{
 .swiper-slide .card img:hover{
   transform: scale(1.1);
 }
+.inputBox textarea{
+  border-radius: 5px;
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 14px;
+  min-height: 100px;
+  resize: vertical;
+}
+
+
+.btnBlue{
+  padding: 10px;
+  background-color: #1D4ED8;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
